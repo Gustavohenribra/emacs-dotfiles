@@ -11,5 +11,5 @@ Este repositório contém minha configuração personalizada do Emacs. Ele inclu
 
 1. Clone este repositório no diretório `~/` (ou em outro local de sua preferência):
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git ~/
+   git clone https://github.com/Gustavohenribra/emacs-dotfiles/tree/main ~/
 

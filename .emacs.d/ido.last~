@@ -1,0 +1,58 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/gustavo/Projetos/puramanchete/app/" . "(auth)/")
+ ("/home/gustavo/Projetos/puramanchete/" . "app/")
+ ("/home/gustavo/Projetos/" . "puramanchete/")
+ ("/home/gustavo/" . "Projetos/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/gustavo/"
+ "/home/gustavo/Projetos/puramanchete/app/(auth)/"
+ "/home/gustavo/Applications/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "layout.tsx"
+ ".wget-hsts"
+ "navicat17-premium-lite-en-aarch64_6406228fa7b51b2864caaa18b556c27c.AppImage"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/gustavo/Projetos/puramanchete/app/(auth)/" (26457 38081 381296 414000) "signup/" "signin/" "#layout.tsx#" "../" "layout.tsx" "./" "reset-password/" ".layout.tsx.~undo-tree~")
+
+ ("/home/gustavo/" (26457 38068 600077 174000) ".zshrc~" ".vmware/" "Modelos/" ".emacs~" "Músicas/" "package-lock.json" "bin/" ".lesshst" "Área de trabalho/" "Downloads/" ".tmux.conf" ".shell.pre-oh-my-zsh" "Tema/" "vmware/" ".smex-items" "Público/" ".bash_history" "snap/" "node_modules/" ".oh-my-zsh/" "Applications/" "Documentos/" ".sudo_as_admin_successful" ".zcompdump-gustavo-ubuntu-5.9" "../" ".themes/" ".npm/" ".bashrc" "Imagens/" ".zshrc" "package.json" ".vscode/" ".dotnet/" ".var/" ".cache/" ".zsh_history" ".wget-hsts" ".cargo/" ".bash_logout" ".zcompdump" ".pki/" "./" "Projetos/" ".sqliterc" "..emacs.~undo-tree~" ".nvidia-settings-rc" ".local/" ".profile" ".ssh/" ".nvm/" ".config/" ".rustup/" ".emacs" ".emacs.d/" ".gnupg/" ".zshenv" "Vídeos/" ".zcompdump-gustavo-ubuntu-5.9.zwc" ".gitconfig" "..zshrc.~undo-tree~")
+
+ ("/home/" (26452 16049 605020 143000) "../" "gustavo/" "./")
+
+ ("/home/gustavo/.emacs.d/" (26457 35872 46737 170000) "ido.last" "helm/" "projectile/" "snippets/" "multiple-cursors.el/" "eln-cache/" "transient/" "yasnippet-0.14.0/" "compat/" "../" "elpa/" "cl-lib-0.7.1/" "tree-sitter/" "emacs-which-key/" "markdown-mode/" "async-1.9.9/" "helm-ls-git-1.9.4/" "auto-save-list/" "lv/" "magit-4.1.3/" ".lsp-session" "ht.el/" "dash.el/" "./" "f.el/" "move-text-2.0.10/" "s.el/" "corfu/" "smex-3.0/" "helm-git-grep/" "ido-completing-read+-4.14/" "projectile-bookmarks.eld" "spinner.el/" "ido.last~")
+
+ ("/home/gustavo/Projetos/puramanchete/" (26457 34584 708004 679000) "package-lock.json" "lib/" "app/" "tailwind.config.js" "node_modules/" "tsconfig.json" "postcss.config.js" ".gitignore" "../" "public/" "package.json" ".vscode/" ".git/" "components/" "./" "CHANGELOG.md" ".env.example" "next.config.js" "env.d.ts")
+
+ ("/home/gustavo/.emacs.d/lsp-mode/" (26456 63311 611368 197000) "lsp-sml.el" "lsp-haxe.el" "lsp-pwsh.el" "lsp-meson.el" "lsp-modeline.el" "lsp-tilt.el" "lsp-dired.el" "lsp-steep.el" "lsp-vetur.el" "CHANGELOG.org" "lsp-benchmarks.el" "lsp-inline-completion.el" "lsp-vhdl.el" "Makefile" "lsp-camel.el" "lsp-erlang.el" "lsp-rf.el" "lsp-diagnostics.el" "lsp-mdx.el" "lsp-perl.el" "features/" "lsp-awk.el" "lsp-dot.el" "lsp-mojo.el" "lsp-nginx.el" "lsp-svelte.el" "lsp-start-plain.el" "lsp-hy.el" ".github/" "lsp-ada.el" "lsp-qml.el" "lsp-file-watch-test.el" "lsp-solidity.el" "lsp-emmet.el" "lsp-perlnavigator.el" "lsp-toml.el" "overrides/" "lsp-protocol.el" "lsp-purescript.el" "lsp-protocol-test.el" "lsp-vala.el" "lsp-r.el" "lsp-jsonnet.el" "CODE_OF_CONDUCT.md" ".gitattributes" "lsp-ansible.el" ".gitignore" "lsp-rubocop.el" "lsp-angular.el" "lsp-cypher.el" "lsp-typespec.el" "lsp-ocaml.el" "lsp-generate-bindings.el" "lsp-mint.el" "lsp-php.el" "lsp-wgsl.el" "lsp-iedit.el" "lsp-roslyn-stdpipe.ps1" "lsp-pls.el" ".git-blame-ignore-revs" "lsp-html.el" "lsp-gleam.el" "lsp-racket.el" "lsp-kotlin.el" "use-package/" "docs/" "lsp-dockerfile.el" "lsp-javascript.el" "lsp-ruby-syntax-tree.el" "lsp-groovy.el" "lsp-glsl.el" "lsp-d.el" "lsp-xml.el" "mkdocs.yml" "lsp-cobol.el" "lsp-fsharp.el" "lsp-cmake.el" "lsp-completion.el" "LICENSE" "lsp-dhall.el" ".git/" "lsp-verilog.el" "lsp-remark.el" "lsp-use-package.el" "lsp-magik.el" "lsp-hack.el" "lsp-icons.el" "lsp-terraform.el" "lsp-tex.el" "lsp-sql.el" "lsp-completion-test.el" "lsp-generate-settings.el" "lsp-rpm-spec.el" "lsp-beancount.el" "lsp-eslint.el" "lsp-graphql.el" "lsp-elm.el" "lsp-mode.el" "lsp-mode-test.el" "env.el" "lsp-semantic-tokens.el" "lsp-gdscript.el" "test/" "lsp-ruff.el" "lsp-bash.el" "lsp-markdown.el" "downstream/" "lsp-earthly.el" "lsp-clangd.el" "lsp-solargraph.el" "fixtures/" "lsp-clangd-test.el" "lsp-headerline.el" "lsp-move.el" "refcard/" "lsp-jq.el" ".dir-locals.el" "lsp-typeprof.el" "lsp-yang.el" "lsp-sorbet.el" "mock-lsp-server.el" "lsp-lens.el" "lsp-credo.el" "CONTRIBUTING.md" "lsp-io-test.el" "lsp-test-utils.el" "lsp-ruby-lsp.el" "lsp-csharp.el" "lsp-bufls.el" "lsp-marksman.el" "lsp-trunk.el" "lsp-nextflow.el" "lsp-roslyn.el" "lsp-fennel.el" "lsp-cucumber.el" "lsp-lisp.el" "lsp-lua.el" "lsp-vscode-snippets.el" "lsp-vimscript.el" "lsp-nim.el" "lsp-crystal.el" "lsp-autotools.el" "lsp-golangci-lint.el" "lsp.el" "scripts/" "examples/" "lsp-yaml.el" "lsp-ido.el" "lsp-pylsp.el" "README.md" "lsp-common-test.el" "lsp-pyls.el" "lsp-elixir.el" "lsp-ttcn3.el" "lsp-json.el" "lsp-prolog.el" "lsp-clojure.el" "lsp-volar.el" "lsp-rust.el" "lsp-semgrep.el" "lsp-nix.el" "test-helper.el" "lsp-idris.el" "lsp-sqls.el" "lsp-futhark.el" "lsp-zig.el" "lsp-mode-steps.el" "lsp-astro.el" "lsp-css.el" "lsp-asm.el" "AUTHORS" "lsp-methods-test.el" "lsp-mock-server-test.el" "lsp-go.el" "lsp-fortran.el" "lsp-integration-test.el" "lsp-nushell.el" "lsp-v.el" "lsp-actionscript.el" "lsp-openscad.el" "clients/" "lsp-javascript-test.el" "generated.protocol.schema.json" "Eask" "../" "./")
+
+ ("/home/gustavo/.emacs.d/lsp-ui/" (26456 63346 162986 167000) "CHANGELOG.org" "Makefile" "lsp-ui-doc.el" "lsp-ui-sideline.el" ".github/" "lsp-ui.el" ".gitignore" "../" "lsp-ui-doc.html" "resources/" "lsp-ui-flycheck.el" "lsp-ui-sideline-test.el" "docs/" "lsp-ui-doc-test.el" "mkdocs.yml" "LICENSE" ".git/" "lsp-ui-util.el" "test/" "./" "README.md" "images/" "lsp-ui-flycheck-test.el" "test-helper.el" "lsp-ui-peek.el" "lsp-ui-imenu.el" "Eask")
+
+ ("/home/gustavo/.emacs.d/corfu/" (26456 61921 942380 742000) "CHANGELOG.org" "corfu-popupinfo.el" "corfu-quick.el" ".gitignore" "../" "LICENSE" ".git/" "corfu-info.el" "corfu-echo.el" "./" "corfu-indexed.el" "README.org" "corfu.el" "corfu-history.el")
+
+ ("/home/gustavo/Applications/" (26454 64716 310410 658000) "vmware-host-modules-workstation-17.5.1/" "workstation-17.5.1.tar.gz" "navicat17-premium-lite-en-x86_64_54b4d9ec748b0aab6f4e5b310f13a7a2.AppImage" ".trash/" "../" "./" "navicat17-premium-lite-en-x86_64_729dbe3a71d8913a454a720880c49f9b.AppImage" "navicat17-premium-lite-en-aarch64_6406228fa7b51b2864caaa18b556c27c.AppImage")
+
+ ("/home/gustavo/.emacs.d/smex-3.0/" (26456 57996 523221 302000) "smex.el~" "../" ".smex.el.~undo-tree~" "./" "smex-pkg.el" "smex.el")
+
+ ("/home/gustavo/.emacs.d/magit-4.1.3/" (26451 30535 0 0) "magit-branch.el" "magit-base.el" "magit-patch.el" "magit-gitignore.el" "magit-extras.el" "magit-pull.el" "magit.el" "magit-bisect.el" "magit-fetch.el" "magit-files.el" "magit-subtree.el" "magit-status.el" "magit-stash.el" "magit-push.el" "../" "magit-merge.el" "magit-blame.el" "git-rebase.el" "magit-ediff.el" "magit-pkg.el" "magit-core.el" "magit-bundle.el" "magit-reset.el" "magit-mode.el" "magit-repos.el" "dir" "LICENSE" "magit.info" "magit-clone.el" "AUTHORS.md" "magit-wip.el" "magit-worktree.el" "magit-diff.el" "magit-commit.el" "magit-git.el" "magit-apply.el" "magit-transient.el" "magit-bookmark.el" "magit-sequence.el" "./" "magit-notes.el" "magit-sparse-checkout.el" "magit-tag.el" "magit-reflog.el" "magit-remote.el" "magit-submodule.el" "magit-process.el" "magit-refs.el" "magit-log.el" "magit-autorevert.el" "magit-margin.el" "git-commit.el")
+
+ ("/home/gustavo/.emacs.d/helm-git-grep/" (26456 56604 552326 212000) "Makefile" "CHANGES.md" ".gitignore" "../" ".travis.yml" "LICENSE" ".git/" ".helm-git-grep.el.~undo-tree~" "test/" "./" "README.md" "helm-git-grep.el" "Cask" ".ert-runner")
+
+ ("/home/gustavo/Projetos/puramanchete/app/" (26456 15333 473581 939000) "(default)/" "../" "css/" "layout.tsx" "./" "(auth)/" "api/")
+
+ ("/home/gustavo/Projetos/" (26456 15332 49606 761000) "../" "./" "puramanchete/" "Sitcon/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

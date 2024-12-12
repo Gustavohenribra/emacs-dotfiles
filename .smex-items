@@ -1,27 +1,24 @@
 
 ;; ----- smex-history -----
 (
- describe-mode
- package-install
- lsp-doctor
- flycheck-describe-checker
- package-delete
- set-variable
  toggle-debug-on-error
+ package-install
+ lsp-workspace-show-log
+ package-refresh-contents
+ describe-mode
+ package-delete
+ package-vc-install
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 17)
- (package-delete . 6)
+ (package-install . 12)
+ (package-delete . 2)
  (package-refresh-contents . 2)
  (magit . 2)
  (compile . 1)
  (package-vc-install . 1)
- (describe-mode . 5)
+ (describe-mode . 4)
  (lsp-workspace-show-log . 2)
  (toggle-debug-on-error . 1)
- (set-variable . 1)
- (flycheck-describe-checker . 1)
- (lsp-doctor . 1)
 )

@@ -36,6 +36,22 @@
 (global-set-key (kbd "C-=") 'text-scale-increase)
 (global-set-key (kbd "C--") 'text-scale-decrease)
 
+(global-set-key (kbd "C-<backspace>")
+                (lambda ()
+                  (interactive)
+                  (let ((pos (point)))
+                    (if (looking-back "[ \t]+" (line-beginning-position))
+                        ;; Apagar espaços em branco antes do cursor
+                        (delete-region (progn
+                                         (skip-chars-backward " \t")
+                                         (point))
+                                       pos)
+                      ;; Apagar palavra antes do cursor
+                      (delete-region (save-excursion
+                                       (backward-word)
+                                       (point))
+                                     pos)))))
+
 ;;; Appearance
 (defun rc/get-default-font ()
   (cond
@@ -235,6 +251,9 @@
   :bind (:map flycheck-mode-map
               ("M-n" . flycheck-next-error) ; optional but recommended error navigation
               ("M-p" . flycheck-previous-error)))
+
+(with-eval-after-load 'flycheck
+  (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc)))
 
 ;;; Which-key
 (require 'which-key)

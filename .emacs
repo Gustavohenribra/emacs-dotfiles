@@ -41,16 +41,22 @@
                   (interactive)
                   (let ((pos (point)))
                     (if (looking-back "[ \t]+" (line-beginning-position))
-                        ;; Apagar espaços em branco antes do cursor
                         (delete-region (progn
                                          (skip-chars-backward " \t")
                                          (point))
                                        pos)
-                      ;; Apagar palavra antes do cursor
                       (delete-region (save-excursion
                                        (backward-word)
                                        (point))
                                      pos)))))
+
+(global-set-key (kbd "C-d")
+                (lambda ()
+                  (interactive)
+                  (let ((line (buffer-substring (line-beginning-position) (line-end-position))))
+                    (end-of-line)
+                    (newline)
+                    (insert line))))
 
 ;;; Appearance
 (defun rc/get-default-font ()
@@ -134,8 +140,8 @@
 
 ;;; Move Text
 (require 'move-text)
-(global-set-key (kbd "M-p") 'move-text-up)
-(global-set-key (kbd "M-n") 'move-text-down)
+(global-set-key (kbd "M-<up>") 'move-text-up)
+(global-set-key (kbd "M-<down>") 'move-text-down)
 
 ;;; Projectile
 (projectile-mode +1)

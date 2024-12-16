@@ -1,1 +1,1 @@
-("~/" "~/Projetos/puramanchete/" "~/.emacs.d/helm-git-grep/")
+("~/Projetos/puramanchete/" "~/" "~/.emacs.d/helm-git-grep/")

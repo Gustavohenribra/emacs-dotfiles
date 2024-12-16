@@ -3,8 +3,8 @@
 ;; ----- ido-last-directory-list -----
 (
  ("/home/gustavo/Projetos/puramanchete/app/api/database/" . "migrations/")
- ("/home/gustavo/Projetos/puramanchete/app/api/" . "database/")
- ("/home/gustavo/Projetos/puramanchete/app/(auth)/" . "signup/")
+ ("/home/gustavo/Projetos/puramanchete/app/api/" . "middlewares/")
+ ("/home/gustavo/Projetos/puramanchete/app/(auth)/" . "signin/")
  ("/home/gustavo/Projetos/puramanchete/public/" . "images/")
  ("/home/gustavo/Projetos/puramanchete/app/" . "api/")
  ("/home/gustavo/Projetos/puramanchete/" . "app/")
@@ -14,13 +14,17 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/gustavo/Projetos/puramanchete/app/api/middlewares/"
  "/home/gustavo/Projetos/puramanchete/"
- "/home/gustavo/Projetos/puramanchete/app/api/database/migrations/"
- "/home/gustavo/"
+ "/home/gustavo/Projetos/puramanchete/app/api/"
  "/home/gustavo/Projetos/puramanchete/app/api/register/"
- "/home/gustavo/Projetos/puramanchete/app/(auth)/signup/"
+ "/home/gustavo/Projetos/puramanchete/app/api/login/"
  "/home/gustavo/Projetos/puramanchete/app/(auth)/signin/"
+ "/home/gustavo/"
+ "/home/gustavo/Projetos/puramanchete/app/(auth)/signup/"
+ "/home/gustavo/Projetos/puramanchete/app/api/database/migrations/"
  "/home/gustavo/Projetos/puramanchete/app/api/database/"
+ "/home/gustavo/Projetos/puramanchete/migrations/"
  "/home/gustavo/Projetos/puramanchete/db/"
  "/home/gustavo/Projetos/puramanchete/prisma/"
  "/home/gustavo/Projetos/puramanchete/public/images/"
@@ -30,43 +34,47 @@
 
 ;; ----- ido-work-file-list -----
 (
- "tsconfig.json"
- "migrate.js"
- "migrate.ts"
+ "validateAuth.ts"
+ ".env"
+ "env.d.ts"
  "package.json"
- ".emacs"
+ "types.ts"
  "route.ts"
  "page.tsx"
- "db.ts"
- ".env"
- "dev.db"
+ ".emacs"
+ "migrate.ts"
+ "tsconfig.json"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/gustavo/Projetos/puramanchete/" (26457 58829 75608 638000) ".env" "package-lock.json" "db/" "lib/" "app/" ".next/" "tailwind.config.js" "node_modules/" "tsconfig.json" "postcss.config.js" ".gitignore" "../" "public/" "package.json" ".vscode/" "migrations/" ".git/" "#package.json#" "..env.example.~undo-tree~" "components/" ".package.json.~undo-tree~" ".env.d.ts.~undo-tree~" "dist/" "./" ".env~" "CHANGELOG.md" "#tsconfig.json#" ".env.example" "next.config.js" ".tsconfig.json.~undo-tree~" "next-env.d.ts" "env.d.ts" "..env.~undo-tree~")
+ ("/home/gustavo/" (26459 17247 121037 991000) ".zshrc~" ".vmware/" "Modelos/" ".emacs~" "Músicas/" "package-lock.json" "bin/" ".lesshst" "Área de trabalho/" "Downloads/" ".tmux.conf" ".shell.pre-oh-my-zsh" "Tema/" "vmware/" ".smex-items" "Público/" ".bash_history" "snap/" "node_modules/" ".gitignore" ".oh-my-zsh/" "Applications/" "Documentos/" ".sudo_as_admin_successful" ".zcompdump-gustavo-ubuntu-5.9" "../" ".themes/" ".npm/" ".bashrc" "Imagens/" ".zshrc" "package.json" ".vscode/" ".dotnet/" ".var/" ".git/" ".gitignore~" ".cache/" ".zsh_history" "..gitignore.~undo-tree~" ".wget-hsts" ".cargo/" ".bash_logout" ".zcompdump" ".pki/" "./" "Projetos/" ".sqliterc" "..emacs.~undo-tree~" ".nvidia-settings-rc" ".local/" "README.md" ".profile" ".ssh/" ".nvm/" ".config/" ".rustup/" ".emacs" ".emacs.d/" ".putty/" ".gnupg/" ".zshenv" "Vídeos/" ".zcompdump-gustavo-ubuntu-5.9.zwc" ".gitconfig" "..zshrc.~undo-tree~")
 
- ("/home/gustavo/Projetos/puramanchete/migrations/" (26457 58867 731614 649000) "migrate.ts" "../" "./" "migrate.js" "migrate.ts~" ".migrate.ts.~undo-tree~" ".migrate.js.~undo-tree~")
+ ("/home/gustavo/Projetos/puramanchete/" (26459 17681 92283 841000) ".env" "package-lock.json" "db/" "lib/" "app/" ".next/" "tailwind.config.js" "node_modules/" "tsconfig.json" "postcss.config.js" ".gitignore" "../" "public/" "package.json" ".vscode/" ".git/" "#package.json#" "..env.example.~undo-tree~" "components/" ".package.json.~undo-tree~" ".env.d.ts.~undo-tree~" "dist/" "./" ".env~" "CHANGELOG.md" "#tsconfig.json#" ".env.example" "next.config.js" ".tsconfig.json.~undo-tree~" "next-env.d.ts" "env.d.ts" "..env.~undo-tree~")
 
- ("/home/gustavo/Projetos/puramanchete/app/api/database/" (26457 58037 59758 134000) "db.js" ".db.ts.~undo-tree~" "db.ts~" "../" "db.ts" "migrations/" "./")
+ ("/home/gustavo/Projetos/puramanchete/app/api/middlewares/" (26456 15333 473581 939000) "../" "ErrorHandler.ts" "./")
 
- ("/home/gustavo/Projetos/puramanchete/app/api/database/migrations/" (26457 57937 960843 591000) "migrate.ts" "../" "./" "migrate.js" "migrate.ts~" ".migrate.ts.~undo-tree~")
+ ("/home/gustavo/Projetos/puramanchete/app/api/login/" (26459 17632 196663 94000) "route.ts~" ".route.ts.~undo-tree~" "../" "route.ts" "./")
 
- ("/home/gustavo/" (26457 57574 690430 215000) ".zshrc~" ".vmware/" "Modelos/" ".emacs~" "Músicas/" "package-lock.json" "bin/" ".lesshst" "Área de trabalho/" "Downloads/" ".tmux.conf" ".shell.pre-oh-my-zsh" "Tema/" "vmware/" ".smex-items" "Público/" ".bash_history" "snap/" "node_modules/" ".gitignore" ".oh-my-zsh/" "Applications/" "Documentos/" ".sudo_as_admin_successful" ".zcompdump-gustavo-ubuntu-5.9" "../" ".themes/" ".npm/" ".bashrc" "Imagens/" ".zshrc" "package.json" ".vscode/" ".dotnet/" ".var/" ".git/" ".gitignore~" ".cache/" ".zsh_history" "..gitignore.~undo-tree~" ".wget-hsts" ".cargo/" ".bash_logout" ".zcompdump" ".pki/" "./" "Projetos/" ".sqliterc" "..emacs.~undo-tree~" ".nvidia-settings-rc" ".local/" ".profile" ".ssh/" ".nvm/" ".config/" ".rustup/" ".emacs" ".emacs.d/" ".gnupg/" ".zshenv" "Vídeos/" ".zcompdump-gustavo-ubuntu-5.9.zwc" ".gitconfig" "..zshrc.~undo-tree~")
+ ("/home/gustavo/Projetos/puramanchete/app/api/" (26459 15850 486794 792000) "register/" "middlewares/" ".types.ts.~undo-tree~" "../" "./" "types.ts~" "database/" "types.ts" "login/")
 
- ("/home/gustavo/Projetos/puramanchete/app/api/register/" (26457 55585 404296 658000) ".route.ts.~undo-tree~" "../" "route.ts" "./")
+ ("/home/gustavo/Projetos/puramanchete/app/(auth)/signin/" (26459 14118 977680 17000) "../" ".page.tsx.~undo-tree~" "./" "page.tsx")
 
- ("/home/gustavo/Projetos/puramanchete/app/(auth)/signin/" (26456 15333 473581 939000) "../" "./" "page.tsx")
+ ("/home/gustavo/Projetos/puramanchete/db/" (26458 64311 531680 734000) "../" "dev.db" "./")
 
- ("/home/gustavo/Projetos/puramanchete/app/api/" (26457 52119 434169 74000) "register/" "middlewares/" "../" "./" "database/")
+ ("/home/gustavo/Projetos/puramanchete/app/(auth)/signup/" (26459 11632 284877 883000) "../" ".page.tsx.~undo-tree~" "./" "page.tsx")
 
- ("/home/gustavo/Projetos/puramanchete/db/" (26457 52057 707246 663000) "../" "dev.db" "./")
+ ("/home/gustavo/Projetos/puramanchete/app/api/database/migrations/" (26458 64124 513563 144000) "migrate.ts" "../" "./" "migrate.js" "migrate.ts~" ".migrate.ts.~undo-tree~" ".migrate.js.~undo-tree~")
+
+ ("/home/gustavo/Projetos/puramanchete/app/api/register/" (26458 64013 905509 196000) ".route.ts.~undo-tree~" "../" "route.ts" "./")
+
+ ("/home/gustavo/Projetos/puramanchete/app/api/database/" (26458 63692 107451 839000) ".db.ts.~undo-tree~" "db.ts~" "../" "db.ts" "migrations/" ".db.js.~undo-tree~" "./")
+
+ ("/home/gustavo/Projetos/puramanchete/migrations/" (26458 57434 761974 878000) "migrate.ts" "../" "./" "migrate.js" "migrate.ts~" ".migrate.ts.~undo-tree~" ".migrate.js.~undo-tree~")
 
  ("/home/gustavo/Projetos/puramanchete/prisma/" (26457 51309 584911 109000) "../" "#schema.prisma#" ".#schema.prisma" "./" "schema.prisma")
 
  ("/home/gustavo/Projetos/puramanchete/lib/" (26456 15333 474581 922000) "throwError.ts" "../" "db.ts" "./")
-
- ("/home/gustavo/Projetos/puramanchete/app/(auth)/signup/" (26457 49247 731039 175000) "../" ".page.tsx.~undo-tree~" "./" "page.tsx")
 
  ("/home/gustavo/Projetos/puramanchete/public/images/" (26456 15333 475581 904000) "logo-06.svg" "logo-04.svg" "logo-03.svg" "logo-09.svg" "planet.png" "planet-tag-02.png" "planet-tag-04.png" "avatar-06.jpg" "../" "auth-bg.svg" "planet-tag-01.png" "logo-01.svg" "logo-05.svg" "avatar-03.jpg" "avatar-05.jpg" "avatar-02.jpg" "avatar-04.jpg" "large-testimonial.jpg" "planet-tag-03.png" "./" "stripes.svg" "logo-07.svg" "google-icon.svg" "stripes-dark.svg" "avatar-01.jpg" "logo-08.svg" "logo-02.svg" "planet-overlay.svg")
 
